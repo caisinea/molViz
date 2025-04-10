@@ -87,5 +87,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     const molViz = new MolVizWrapper();
     await molViz.init('app');
     molViz.setBackground(0xffffff);
-    molViz.loadStructureFromUrl('/src/hexokinase.pdb', 'pdb');
+    molViz.loadStructureFromUrl('./hexokinase.pdb', 'pdb');
 }); 
