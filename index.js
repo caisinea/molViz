@@ -176008,7 +176008,7 @@ void RE_IndirectSpecular_Physical( const in vec3 radiance, const in vec3 irradia
     const molViz = new MolVizWrapper();
     await molViz.init("app");
     molViz.setBackground(16777215);
-    molViz.loadStructureFromUrl("/src/hexokinase.pdb", "pdb");
+    molViz.loadStructureFromUrl("./hexokinase.pdb", "pdb");
   });
 })();
 /*! Bundled license information:
