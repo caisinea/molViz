@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mol* Visualization</title>
+    <link rel="stylesheet" type="text/css" href="molstar.css" />
+    <style>
+        #app {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            width: 800px;
+            height: 600px;
+        }
+        .btn-container {
+            position: absolute;
+            left: 100px;
+            top: 850px;
+        }
+        button {
+            padding: 0.25em;
+            background-color: snow;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <div class="btn-container">
+        <button id="rep-cartoon">Cartoon</button>
+        <button id="rep-surface">Surface</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
