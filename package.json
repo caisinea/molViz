@@ -1,0 +1,19 @@
+{
+  "name": "molviz",
+  "version": "1.0.0",
+  "description": "Molecular visualization using Mol*",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js && esbuild src/index.ts --bundle --outdir=dist --loader:.scss=text --loader:.html=text",
+    "dev": "node build.js && esbuild src/index.ts --bundle --outdir=dist --loader:.scss=text --loader:.html=text --watch --servedir=dist"
+  },
+  "dependencies": {
+    "molstar": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "esbuild": "^0.19.0",
+    "sass": "^1.69.0",
+    "typescript": "^5.0.0"
+  }
+} 
