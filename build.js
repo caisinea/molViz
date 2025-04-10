@@ -12,7 +12,7 @@ const result = sass.compile(path.join('node_modules', 'molstar', 'lib', 'mol-plu
 fs.writeFileSync(path.join('dist', 'molstar.css'), result.css);
 
 // Copy PDB file
-fs.copyFileSync('hexokinase.pdb', path.join('dist', 'hexokinase.pdb'));
+fs.copyFileSync(path.join('src', 'hexokinase.pdb'), path.join('dist', 'hexokinase.pdb'));
 
 // Copy HTML file
-fs.copyFileSync('index.html', path.join('dist', 'index.html')); 
+fs.copyFileSync(path.join('src', 'index.html'), path.join('dist', 'index.html')); 
