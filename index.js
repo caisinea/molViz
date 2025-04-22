@@ -13,6 +13,7 @@
     for (var name2 in all4)
       __defProp(target, name2, { get: all4[name2], enumerable: true });
   };
+  var dummyData = "dummmy";
   var __copyProps = (to, from2, except, desc) => {
     if (from2 && typeof from2 === "object" || typeof from2 === "function") {
       for (let key2 of __getOwnPropNames(from2))
