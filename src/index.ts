@@ -27,9 +27,10 @@ class MolVizWrapper {
                     [PluginConfig.Viewport.ShowExpand, false],
                     [PluginConfig.Viewport.ShowControls, false],
                     [PluginConfig.Viewport.ShowSettings, false],
-                    [PluginConfig.Viewport.ShowSelectionMode, false],
+                    //[PluginConfig.Viewport.ShowSelectionMode, false],
                     //[PluginConfig.Viewport.ShowAnimation, false],
                     //[PluginConfig.Viewport.ShowTrajectoryControls, false]
+                    //[PluginConfig.Viewport.ShowScreenshotControls, false]
                 ],
                 components: {
                     remoteState: 'none',
