@@ -175954,10 +175954,11 @@ void RE_IndirectSpecular_Physical( const in vec3 radiance, const in vec3 irradia
           config: [
             [PluginConfig.Viewport.ShowExpand, false],
             [PluginConfig.Viewport.ShowControls, false],
-            [PluginConfig.Viewport.ShowSettings, false],
-            [PluginConfig.Viewport.ShowSelectionMode, false]
+            [PluginConfig.Viewport.ShowSettings, false]
+            //[PluginConfig.Viewport.ShowSelectionMode, false],
             //[PluginConfig.Viewport.ShowAnimation, false],
             //[PluginConfig.Viewport.ShowTrajectoryControls, false]
+            //[PluginConfig.Viewport.ShowScreenshotControls, false]
           ],
           components: {
             remoteState: "none",
